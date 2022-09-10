@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/sheet"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity=""
+        android:background="@drawable/theme_backgroud">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:text="Add Item"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_marginStart="14dp"
+        android:layout_height="25dp"
+        android:background="@drawable/picture"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        android:layout_marginStart="10dp"
+        android:layout_width="match_parent"
+        android:paddingStart="10dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:paddingLeft="10dp"
+        android:text="Photos"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_marginStart="14dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/camera"/>
+
+        <TextView
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:layout_marginStart="10dp"
+            android:layout_width="match_parent"
+            android:paddingStart="10dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="10dp"
+            android:text="Camera"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_marginStart="14dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/notes"/>
+
+        <TextView
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:layout_marginStart="10dp"
+            android:layout_width="match_parent"
+            android:paddingStart="10dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="10dp"
+            android:text="Notes"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_marginStart="14dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/documents"/>
+
+        <TextView
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            android:layout_marginStart="10dp"
+            android:layout_width="match_parent"
+            android:paddingStart="10dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="10dp"
+            android:text="Document"/>
+    </LinearLayout>
+
+
+</LinearLayout>
